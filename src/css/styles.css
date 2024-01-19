@@ -46,3 +46,10 @@ body{
 .botoes-carrossel .botao.selecionado{
     background-color: #1d8346;
 }
+
+.menu-lateral{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80px;
+}
