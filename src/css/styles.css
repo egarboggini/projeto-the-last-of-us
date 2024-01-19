@@ -25,4 +25,24 @@ body{
     width: 49%;
     font-size: 24px;
     color: #ffffff;
+    line-height: 30px;
+}
+
+.botoes-carrossel{
+    display: flex;
+    justify-content: center;
+    gap: 20px;  
+}
+
+.botoes-carrossel .botao{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-color: #ffffff;
+}
+
+.botoes-carrossel .botao.selecionado{
+    background-color: #1d8346;
 }
