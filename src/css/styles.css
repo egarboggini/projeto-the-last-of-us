@@ -31,6 +31,7 @@ body{
 }
 
 .botoes-carrossel .botao{
+    background-color: #ffffff;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -48,4 +49,7 @@ body{
     top: 0;
     right: 0;
     width: 80px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
 }
